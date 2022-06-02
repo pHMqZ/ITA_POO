@@ -64,4 +64,8 @@ public class Pizza {
 		return preco;
 	}
 	
+	public static void zerarIngredientes() {
+		ingredientesUsados.clear();
+	}
+	
 }

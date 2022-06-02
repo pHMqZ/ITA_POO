@@ -32,7 +32,7 @@ public class Main {
 		
 		// Imprime a quantidade utilizada de cada ingrediente
 		System.out.println("Total de ingredientes gastos:");
-		System.out.println(Pizza.ingredientesUsados);
+		System.out.println(Pizza.ingredientesUsados.toString());
 
 	}
 
