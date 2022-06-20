@@ -8,11 +8,12 @@ public class CarrinhoDeCompras {
 
 	private ArrayList<Pizza> pedidoPizza = new ArrayList<>();
 
-	public void adicionaPizza(Pizza pizza) {
-		if (pizza.getIngredientes().isEmpty()) {
-
-		} else {
+	public boolean adicionaPizza(Pizza pizza) {
+		if (pizza.getPreco() != 0) {
 			pedidoPizza.add(pizza);
+			return true;
+		} else {
+			return false;
 		}
 
 	}
