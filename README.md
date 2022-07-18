@@ -15,7 +15,7 @@
         <li><a href="./PalavrasEmbaralhadas">Semana 6 - Tratamento de exceções;</a></li>
     </ol>
     <ol><h2>Exercícios Complementares</h2>
-        <li><a href="./Pontuacao">1 - Relacionamento de Classes;</a></li>
-        <li><a href="./Compra"></a>2 - Herança;</li>
+        <li><a href="./Pontuacao">Relacionamento de Classes;</a></li>
+        <li><a href="./Compra">2 - Herança;</a></li>
     </ol>
 </body>
