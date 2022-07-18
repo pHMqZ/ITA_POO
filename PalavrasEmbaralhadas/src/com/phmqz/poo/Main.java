@@ -29,7 +29,7 @@ public class Main {
 		do {
 			mecanica = FabricaMecanica.factory(io.mecanica());
 			mecanica.setEmbaralhar(FabricaEmbaralhador.factory());
-			mecanica.SetPalavra(banco.getPalavra());
+			mecanica.setPalavra(banco.getPalavra());
 			
 			IO.mostrarPalavra(mecanica.getPalavra());
 			

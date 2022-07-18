@@ -26,7 +26,7 @@ public class DoisJogadores implements MecanicaDeJogo{
 	}
 
 	@Override
-	public void SetPalavra(String p) {
+	public void setPalavra(String p) {
 		if (e == null) throw new RuntimeException("Embaralhador não definido");
 		
 		this.palavra = p;

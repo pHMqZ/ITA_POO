@@ -10,7 +10,7 @@ public class PalavraUnica implements MecanicaDeJogo{
 	private int pontos;
 	private boolean fdj;
 	
-	PalavraUnica(){
+	public PalavraUnica(){
 		this.palavra = null;
 		this.e = null;
 		this.pontos = 0;
@@ -24,7 +24,7 @@ public class PalavraUnica implements MecanicaDeJogo{
 	}
 
 	@Override
-	public void SetPalavra(String p) {
+	public void setPalavra(String p) {
 		
 		if(e == null) throw new RuntimeException("Embaralhador não definido");
 		

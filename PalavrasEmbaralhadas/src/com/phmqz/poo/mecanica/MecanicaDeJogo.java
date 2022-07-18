@@ -6,7 +6,7 @@ public interface MecanicaDeJogo {
 	
 	public void setEmbaralhar(Embaralhador e);
 	
-	public void SetPalavra(String p);
+	public void setPalavra(String p);
 	
 	public String getPalavra();
 	
